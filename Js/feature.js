@@ -5,13 +5,7 @@ function showSectionById(id){
     document.getElementById(id).classList.remove('hidden');
 
 }
-function showSectionById(id){
-    document.getElementById(id).classList.remove('hidden');
-    document.getElementById(id).classList.remove('hidden');
 
-    document.getElementById(id).classList.remove('hidden');
-
-}
 document.getElementById('button_donate').addEventListener('click',function(){
     showSectionById('donate_form');
 
