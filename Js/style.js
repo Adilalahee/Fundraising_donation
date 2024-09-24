@@ -6,6 +6,8 @@ document.getElementById('donate_btn').addEventListener('click',function(){
     if(donateAmount<currentBalance){
         const newbalance=currentBalance-donateAmount;
     document.getElementById('current_balance').innerText=newbalance;
+    const totalBalance=addmoneyBalance+donateAmount;
+    document.getElementById('addmoney_balance').innerText=totalBalance; 
     const donateText=getTextById('donate_text')
     const div=document.createElement('div');
     div.classList.add('my-2');
@@ -22,8 +24,7 @@ document.getElementById('donate_btn').addEventListener('click',function(){
     else{
         alert('Sorry')
     }
-    const totalBalance=addmoneyBalance+donateAmount;
-    document.getElementById('addmoney_balance').innerText=totalBalance;   
+      
 })
 
 document.getElementById('donate_btn_2').addEventListener('click',function(){

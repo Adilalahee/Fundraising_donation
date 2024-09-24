@@ -7,11 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="max-w-screen-xl mx-auto">
-    <header class="relative">
-        <div class="navbar h-3 bg-red-50 sticky top-4 ">
-            <div class="navbar-start">
-              <a class="btn btn-ghost text-xl" href="blog.html">Blog</a>
+<body class="">
+    <header class="">
+        <div class="navbar h-3 bg-red-50 p-10 ">
+            <div class="navbar-start ">
+              <a class="btn btn-ghost text-xl bg-[#a3e635]" href="blog.html">Blog</a>
             </div>
             <div class="navbar-center">
               <img src="assets/logo.png" alt="">
@@ -24,17 +24,17 @@
                 </div>
             </div>
           </div>
-          <div class="text-center pt-8">
-            <button id="button_donate" class="btn btn-neutral">Donate</button>
-           <button id="button_history" class="btn btn-primary">History</button>
+          <div class="flex gap-8 justify-center p-8">
+            <button id="button_donate" class="btn bg-[#a3e635]">Donation</button>
+           <button id="button_history" class="btn hover:bg-[#a3e635]">History</button>
           </div>
     </header>
-    <main>
+    <main class="m-5 max-w-screen-xl mx-auto">
       <!-- Donate form start -->
        <section id="donate_form">
-        <div class="card card-side bg-base-100 shadow-xl">
-          <figure>
-            <img
+        <div class="card card-side bg-base-100 shadow-xl m-4">
+          <figure class="w-full">
+            <img 
               src="assets/noakhali.png"
               alt="Movie" />
           </figure>
@@ -47,7 +47,7 @@
             <p>Sixty-year-old Kofil Uddin watched helplessly as floodwater crept into his home at Bhabani Jibanpur village in Noakhali's Begumganj upazila on August 10. More than a month has passed, but the house is still under knee-deep water.As long as the educational institutions have been turned into flood shelters, the authorities are unable to resume academic activities and they have requested the local administration to move the people to other places.</p>
             <input id="donate_input" type="text" placeholder="Please donate here" class="input input-bordered w-full max-w-3xl" />
             <div class="card-actions justify-center">
-              <button id="donate_btn" class="btn btn-primary" onclick="my_modal_1.showModal()">Donate</button>
+              <button id="donate_btn" class="btn w-full bg-[#a3e635]" onclick="my_modal_1.showModal()">Donate</button>
 <dialog id="my_modal_1" class="modal">
   <div class="modal-box">
     <h3 class="text-xl font-bold text-center py-4">Congrats</h3>
@@ -68,7 +68,7 @@
         </div>
         <!-- Donate form start 2 -->
         <div class="card card-side bg-base-100 shadow-xl">
-          <figure>
+          <figure class="w-full">
             <img
               src="assets/feni.png"
               alt="Movie" />
@@ -82,7 +82,7 @@
             <p>Sixty-year-old Kofil Uddin watched helplessly as floodwater crept into his home at Bhabani Jibanpur village in Noakhali's Begumganj upazila on August 10. More than a month has passed, but the house is still under knee-deep water.As long as the educational institutions have been turned into flood shelters, the authorities are unable to resume academic activities and they have requested the local administration to move the people to other places.</p>
             <input id="donate_input1" type="text" placeholder="Please donate here" class="input input-bordered w-full max-w-3xl" />
             <div class="card-actions justify-center">
-              <button id="donate_btn_2" class="btn btn-primary" onclick="my_modal_2.showModal()">Donate</button>
+              <button id="donate_btn_2" class="btn w-full bg-[#a3e635]" onclick="my_modal_2.showModal()">Donate</button>
 <dialog id="my_modal_2" class="modal">
   <div class="modal-box">
     <h3 class="text-xl font-bold text-center py-4">Congrats</h3>
@@ -103,7 +103,7 @@
         </div>
                 <!-- Donate form start 3 -->
                 <div class="card card-side bg-base-100 shadow-xl">
-                  <figure>
+                  <figure class="w-full">
                     <img
                       src="assets/feni.png"
                       alt="Movie" />
@@ -117,7 +117,7 @@
                     <p>Sixty-year-old Kofil Uddin watched helplessly as floodwater crept into his home at Bhabani Jibanpur village in Noakhali's Begumganj upazila on August 10. More than a month has passed, but the house is still under knee-deep water.As long as the educational institutions have been turned into flood shelters, the authorities are unable to resume academic activities and they have requested the local administration to move the people to other places.</p>
                     <input id="donate_input2" type="text" placeholder="Please donate here" class="input input-bordered w-full max-w-3xl" />
                     <div class="card-actions justify-center">
-                      <button id="donate_btn_3" class="btn btn-primary" onclick="my_modal_3.showModal()">Donate</button>
+                      <button id="donate_btn_3" class="btn w-full bg-[#a3e635]" onclick="my_modal_3.showModal()">Donate</button>
         <dialog id="my_modal_3" class="modal">
           <div class="modal-box">
             <h3 class="text-xl font-bold text-center py-4">Congrats</h3>
