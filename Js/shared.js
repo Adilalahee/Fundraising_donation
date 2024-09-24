@@ -3,6 +3,10 @@ function getTextValueById(id){
     const textNumber=parseFloat(text_value);
     return textNumber;
 }
+function getTextById(id){
+    const text_values=document.getElementById(id).innerText;
+    return text_values;
+}
 function getInputValueById(id){
     const inputDonate=document.getElementById(id).value;
     const donateNumber=parseFloat(inputDonate);
