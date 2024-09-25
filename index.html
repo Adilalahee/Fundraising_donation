@@ -9,30 +9,30 @@
 </head>
 <body class="">
     <header class="sticky top-0 z-10">
-        <div class="navbar h-3 bg-red-50 p-10 ">
-            <div class="navbar-start ">
+        <div class="navbar h-3 bg-red-50 p-2 md:p-10 ">
+            <div class="navbar-start">
               <a class="btn btn-ghost text-xl bg-[#a3e635]" href="blog.html">Blog</a>
             </div>
             <div class="navbar-center">
-              <img class="hidden md:visible" src="assets/logo.png" alt="">
+              <img src="assets/logo.png" alt="">
               <a class="btn btn-ghost text-xl">Donate Bangladesh</a>
             </div>
             <div class="navbar-end">
                 <div class="flex">
                     <img src="assets/coin.png" alt="">
-                    <h4 ><span id="current_balance">5500</span>BDT</h4>
+                    <h4 ><span id="current_balance" class="px-1 font-semibold">5500</span>BDT</h4>
                 </div>
             </div>
           </div>
           <div class="flex gap-8 justify-center p-8">
-            <button id="button_donate" class="btn bg-[#a3e635]">Donation</button>
-           <button id="button_history" class="btn hover:bg-[#a3e635]">History</button>
+            <button id="button_donate" class="btn bg-[#a3e635] font-bold">Donation</button>
+           <button id="button_history" class="btn hover:bg-[#a3e635] font-bold">History</button>
           </div>
     </header>
-    <main class="m-5 max-w-screen-xl mx-auto">
+    <main class="max-w-screen-xl mx-auto">
       <!-- Donate form start -->
        <section id="donate_form">
-        <div class="card card-side bg-base-100 shadow-xl mx-4 md:mx-0 flex-col md:flex-row">
+        <div class="card card-side bg-base-100 shadow-xl mx-4 my-8 md:mx-0 flex-col md:flex-row">
           <figure class="w-full">
             <img 
               src="assets/noakhali.png"
@@ -47,10 +47,10 @@
             <p>Sixty-year-old Kofil Uddin watched helplessly as floodwater crept into his home at Bhabani Jibanpur village in Noakhali's Begumganj upazila on August 10. More than a month has passed, but the house is still under knee-deep water.As long as the educational institutions have been turned into flood shelters, the authorities are unable to resume academic activities and they have requested the local administration to move the people to other places.</p>
             <input id="donate_input" type="text" placeholder="Please donate here" class="input input-bordered w-full" />
             <div class="card-actions justify-center">
-              <button id="donate_btn" class="btn w-full bg-[#a3e635]" onclick="my_modal_1.showModal()">Donate</button>
+              <button id="donate_btn" class="btn w-full bg-[#a3e635] font-bold" onclick="my_modal_1.showModal()">Donate</button>
                       <dialog id="my_modal_1" class="modal">
                         <div class="modal-box">
-                          <h3 class="text-xl font-bold text-center py-4">Congrats</h3>
+                          <h3 class="text-xl font-bold text-center py-4">Congrats!</h3>
                           <div><img class="mx-auto" src="assets/coin.png" alt=""></div>
                           <p class="py-4 text-center">You have donated for humankind </p>
                           <h4 class="font-bold text-center text-lg">successfully</h4>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <!-- Donate form start 2 -->
-        <div class="card card-side bg-base-100 shadow-xl mx-4 md:mx-0 flex-col md:flex-row">
+        <div class="card card-side bg-base-100 shadow-xl mx-4 my-8  md:mx-0 flex-col md:flex-row">
           <figure class="w-full">
             <img
               src="assets/feni.png"
@@ -82,10 +82,10 @@
             <p>Sixty-year-old Kofil Uddin watched helplessly as floodwater crept into his home at Bhabani Jibanpur village in Noakhali's Begumganj upazila on August 10. More than a month has passed, but the house is still under knee-deep water.As long as the educational institutions have been turned into flood shelters, the authorities are unable to resume academic activities and they have requested the local administration to move the people to other places.</p>
             <input id="donate_input1" type="text" placeholder="Please donate here" class="input input-bordered w-full" />
             <div class="card-actions justify-center">
-              <button id="donate_btn_2" class="btn w-full bg-[#a3e635]" onclick="my_modal_2.showModal()">Donate</button>
+              <button id="donate_btn_2" class="btn w-full bg-[#a3e635] font-bold" onclick="my_modal_2.showModal()">Donate</button>
 <dialog id="my_modal_2" class="modal">
   <div class="modal-box">
-    <h3 class="text-xl font-bold text-center py-4">Congrats</h3>
+    <h3 class="text-xl font-bold text-center py-4">Congrats!</h3>
     <div><img class="mx-auto" src="assets/coin.png" alt=""></div>
     <p class="py-4 text-center">You have donated for humankind </p>
     <h4 class="font-bold text-center text-lg">successfully</h4>
@@ -102,7 +102,7 @@
           </div>
         </div>
                 <!-- Donate form start 3 -->
-                <div class="card card-side bg-base-100 shadow-xl mx-4 md:mx-0 flex-col md:flex-row">
+                <div class="card card-side bg-base-100 shadow-xl mx-4 my-8 md:mx-0 flex-col md:flex-row">
                   <figure class="w-full">
                     <img
                       src="assets/feni.png"
@@ -117,10 +117,10 @@
                     <p>Sixty-year-old Kofil Uddin watched helplessly as floodwater crept into his home at Bhabani Jibanpur village in Noakhali's Begumganj upazila on August 10. More than a month has passed, but the house is still under knee-deep water.As long as the educational institutions have been turned into flood shelters, the authorities are unable to resume academic activities and they have requested the local administration to move the people to other places.</p>
                     <input id="donate_input2" type="text" placeholder="Please donate here" class="input input-bordered w-full" />
                     <div class="card-actions justify-center">
-                      <button id="donate_btn_3" class="btn w-full bg-[#a3e635]" onclick="my_modal_3.showModal()">Donate</button>
+                      <button id="donate_btn_3" class="btn w-full bg-[#a3e635] font-bold" onclick="my_modal_3.showModal()">Donate</button>
         <dialog id="my_modal_3" class="modal">
           <div class="modal-box">
-            <h3 class="text-xl font-bold text-center py-4">Congrats</h3>
+            <h3 class="text-xl font-bold text-center py-4">Congrats!</h3>
             <div><img class="mx-auto" src="assets/coin.png" alt=""></div>
             <p class="py-4 text-center">You have donated for humankind </p>
             <h4 class="font-bold text-center text-lg">successfully</h4>
@@ -148,7 +148,7 @@
          </div>
         <!-- History form end -->
     </main>
-    <footer>
+    <footer class="h-20">
 
     </footer>
     <script src="Js/feature.js"></script>

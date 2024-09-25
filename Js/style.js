@@ -85,7 +85,6 @@ document.getElementById('donate_btn_3').addEventListener('click',function(){
     const donateText=getTextById('donate_text2')
     const div=document.createElement('div');
     div.classList.add('my-2');
-    div.classList.add('mx-2');
     div.classList.add('border-2');
     div.classList.add('border-solid');
     div.classList.add('p-4');
@@ -97,7 +96,7 @@ document.getElementById('donate_btn_3').addEventListener('click',function(){
     document.getElementById('history_transaction').appendChild(div);
     }
     else{
-        alert('Sorry')
+        alert('Sorry! You do not have sufficient balance')
     }
    
 })
