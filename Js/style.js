@@ -21,7 +21,7 @@ document.getElementById('donate_btn').addEventListener('click',function(){
     div.classList.add('border-solid');
     div.classList.add('p-4');
     div.innerHTML=`
-    <h4> ${donateAmount} Taka is donated for ${donateText} </h4>
+    <h4 class="font-bold"> ${donateAmount} Taka is donated for ${donateText} </h4>
     <p> Date: ${new Date().toString()} </p>
     `
     
@@ -55,7 +55,7 @@ document.getElementById('donate_btn_2').addEventListener('click',function(){
     div.classList.add('border-solid');
     div.classList.add('p-4');
     div.innerHTML=`
-    <h4> ${donateAmount} Taka is donated for ${donateText} </h4>
+    <h4 class="font-bold"> ${donateAmount} Taka is donated for ${donateText} </h4>
     <p> Date: ${new Date().toString()} </p>
     `
     
@@ -85,11 +85,12 @@ document.getElementById('donate_btn_3').addEventListener('click',function(){
     const donateText=getTextById('donate_text2')
     const div=document.createElement('div');
     div.classList.add('my-2');
+    div.classList.add('mx-2');
     div.classList.add('border-2');
     div.classList.add('border-solid');
     div.classList.add('p-4');
     div.innerHTML=`
-    <h4> ${donateAmount} Taka is donated for ${donateText} </h4>
+    <h4 class="font-bold"> ${donateAmount} Taka is donated for ${donateText} </h4>
     <p> Date: ${new Date().toString()} </p>
     `
     
