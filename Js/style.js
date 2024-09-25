@@ -28,7 +28,7 @@ document.getElementById('donate_btn').addEventListener('click',function(){
     document.getElementById('history_transaction').appendChild(div);
     }
     else{
-        alert('Sorry')
+        alert('Sorry! You do not have sufficient balance')
     }
       
 })
@@ -62,7 +62,7 @@ document.getElementById('donate_btn_2').addEventListener('click',function(){
     document.getElementById('history_transaction').appendChild(div);
     }
     else{
-        alert('Sorry')
+        alert('Sorry! You do not have sufficient balance')
     }
      
 })
